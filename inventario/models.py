@@ -29,8 +29,8 @@ class Proveedor(models.Model):
 class Material(models.Model):
     nombre = models.CharField(max_length=150)
     categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE, related_name='materiales')
-    marca = models.ForeignKey(Marca, on_delete=models.SET_NULL, null=True, blank=True)
-    proveedor = models.ForeignKey(Proveedor, on_delete=models.SET_NULL, null=True, blank=True)
+    marca = models.ForeignKey(Marca, on_delete=models.CASCADE, null=True, blank=True)
+    proveedor = models.ForeignKey(Proveedor, on_delete=models.CASCADE, null=True, blank=True)
     UNIDADES = [
         ('unidad', 'Unidad'),
         ('kg', 'Kilogramo'),
