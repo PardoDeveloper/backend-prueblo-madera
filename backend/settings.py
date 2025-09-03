@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-omr1&d!=50la7%ecxvpf-bin!s(20&dogp4le#7=68yzun&+jg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['tu-proyecto.onrender.com', 'localhost', '127.0.0.1', 'frontend-pueblo-madera.vercel.app']
+ALLOWED_HOSTS = ['tu-proyecto.onrender.co   m', 'localhost', '127.0.0.1', 'frontend-pueblo-madera.vercel.app']
 
 
 # Application definition
